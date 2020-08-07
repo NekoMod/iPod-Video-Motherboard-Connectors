@@ -1,7 +1,7 @@
 # iPod-Video-Motherboard-Connectors
 EAGLE connectors library for iPod Video (5th gen) with 3D models.
 
-![Render](https://github.com/NekoMod/iPod-Video-Motherboard-Connectors/render.png)
+![Render](https://github.com/NekoMod/iPod-Video-Motherboard-Connectors/blob/master/render.png)
 
 * Battery - [Product page](https://www.molex.com/molex/products/part-detail/ffc_fpc_connectors/0526100572)
 * HoldJack - [Product page](https://www.molex.com/molex/products/part-detail/ffc_fpc_connectors/5035661302)
