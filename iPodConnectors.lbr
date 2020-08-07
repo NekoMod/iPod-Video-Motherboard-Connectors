@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="5035661302" urn="urn:adsk.eagle:footprint:20028175/1">
+<smd name="FRONT1" x="2" y="2" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT2" x="2" y="1.4" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT3" x="2" y="0.8" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT4" x="2" y="0.2" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT5" x="2" y="-0.4" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT6" x="2" y="-1" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT7" x="2" y="-1.6" dx="0.72" dy="0.25" layer="1"/>
+<smd name="BACK1" x="-0.43" y="1.7" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK2" x="-0.43" y="1.1" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK3" x="-0.43" y="0.5" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK4" x="-0.43" y="-0.1" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK5" x="-0.43" y="-0.7" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK6" x="-0.43" y="-1.3" dx="0.52" dy="0.25" layer="1"/>
+<smd name="SK1" x="1.94" y="2.71" dx="0.85" dy="0.3" layer="1"/>
+<smd name="SK2" x="1.94" y="-2.31" dx="0.85" dy="0.3" layer="1"/>
+<wire x1="-0.44" y1="2.97" x2="-0.44" y2="-2.57" width="0.05" layer="1"/>
+<wire x1="2.26" y1="2.24" x2="2.25" y2="-1.89" width="0.05" layer="1"/>
+<wire x1="2.26" y1="2.24" x2="2.26" y2="2.97" width="0.05" layer="1"/>
+<wire x1="2.26" y1="2.97" x2="-0.44" y2="2.97" width="0.05" layer="1"/>
+<wire x1="2.25" y1="-1.89" x2="2.25" y2="-2.57" width="0.05" layer="1"/>
+<wire x1="-0.44" y1="-2.57" x2="2.25" y2="-2.57" width="0.05" layer="1"/>
+</package>
+<package name="5035663502" urn="urn:adsk.eagle:footprint:19735491/1">
+<smd name="BACK1" x="-1.27" y="5.08" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK2" x="-1.27" y="4.48" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK3" x="-1.27" y="3.88" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK4" x="-1.27" y="3.28" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK5" x="-1.27" y="2.68" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK6" x="-1.27" y="2.08" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK7" x="-1.27" y="1.48" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK8" x="-1.27" y="0.88" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK9" x="-1.27" y="0.28" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK10" x="-1.27" y="-0.32" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK11" x="-1.27" y="-0.92" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK12" x="-1.27" y="-1.52" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK13" x="-1.27" y="-2.12" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK14" x="-1.27" y="-2.72" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK15" x="-1.27" y="-3.32" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK16" x="-1.27" y="-3.92" dx="0.52" dy="0.25" layer="1"/>
+<smd name="BACK17" x="-1.27" y="-4.52" dx="0.52" dy="0.25" layer="1"/>
+<smd name="FRONT1" x="1.16" y="5.38" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT2" x="1.16" y="4.78" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT3" x="1.16" y="4.18" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT4" x="1.16" y="3.58" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT5" x="1.16" y="2.98" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT6" x="1.16" y="2.38" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT7" x="1.16" y="1.78" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT8" x="1.16" y="1.18" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT9" x="1.16" y="0.58" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT10" x="1.16" y="-0.02" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT11" x="1.16" y="-0.62" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT12" x="1.16" y="-1.22" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT13" x="1.16" y="-1.82" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT14" x="1.16" y="-2.42" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT15" x="1.16" y="-3.02" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT16" x="1.16" y="-3.62" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT17" x="1.16" y="-4.22" dx="0.72" dy="0.25" layer="1"/>
+<smd name="FRONT18" x="1.16" y="-4.82" dx="0.72" dy="0.25" layer="1"/>
+<smd name="SK2" x="1.09" y="-5.53" dx="0.85" dy="0.3" layer="1"/>
+<smd name="SK1" x="1.09" y="6.09" dx="0.85" dy="0.3" layer="1"/>
+<wire x1="-1.28" y1="-4.65" x2="-1.28" y2="6.35" width="0.05" layer="1"/>
+<wire x1="1.42" y1="-5.79" x2="1.42" y2="6.35" width="0.05" layer="1"/>
+<wire x1="1.42" y1="-5.79" x2="-1.28" y2="-5.79" width="0.05" layer="1"/>
+<wire x1="-1.28" y1="-5.79" x2="-1.28" y2="-4.66" width="0.05" layer="1"/>
+<wire x1="1.42" y1="6.35" x2="-1.28" y2="6.35" width="0.05" layer="1"/>
+</package>
+<package name="FF12-32A-R11A" urn="urn:adsk.eagle:footprint:22499111/1">
+<smd name="FRONT1" x="1.3" y="4.5" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT2" x="1.3" y="3.9" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT3" x="1.3" y="3.3" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT4" x="1.3" y="2.7" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT5" x="1.3" y="2.1" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT6" x="1.3" y="1.5" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT7" x="1.3" y="0.9" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT8" x="1.3" y="0.3" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT9" x="1.3" y="-0.3" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT10" x="1.3" y="-0.9" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT11" x="1.3" y="-1.5" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT12" x="1.3" y="-2.1" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT13" x="1.3" y="-2.7" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT14" x="1.3" y="-3.3" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT15" x="1.3" y="-3.9" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="FRONT16" x="1.3" y="-4.5" dx="0.4" dy="1.05" layer="1" rot="R90"/>
+<smd name="BACK1" x="-2.15" y="4.8" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK2" x="-2.15" y="4.2" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK3" x="-2.15" y="3.6" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK4" x="-2.15" y="3" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK5" x="-2.15" y="2.4" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK6" x="-2.15" y="1.8" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK7" x="-2.15" y="1.2" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK8" x="-2.15" y="0.6" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK9" x="-2.15" y="0" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK10" x="-2.15" y="-0.6" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK11" x="-2.15" y="-1.2" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK12" x="-2.15" y="-1.8" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK13" x="-2.15" y="-2.4" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK14" x="-2.15" y="-3" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK15" x="-2.15" y="-3.6" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="BACK16" x="-2.15" y="-4.2" dx="0.4" dy="0.75" layer="1" rot="R90"/>
+<wire x1="-2.32" y1="6.05" x2="1.33" y2="6.05" width="0.05" layer="1"/>
+<wire x1="1.33" y1="6.05" x2="1.33" y2="-5.76" width="0.05" layer="1"/>
+<wire x1="1.33" y1="-5.76" x2="-2.32" y2="-5.76" width="0.05" layer="1"/>
+<wire x1="-2.32" y1="-5.76" x2="-2.32" y2="6.05" width="0.05" layer="1"/>
+</package>
+<package name="526100572" urn="urn:adsk.eagle:footprint:20112561/1">
+<smd name="FRONT1" x="1.22" y="2.02" dx="1.65" dy="0.6" layer="1"/>
+<smd name="FRONT2" x="1.22" y="1.02" dx="1.65" dy="0.6" layer="1"/>
+<smd name="FRONT3" x="1.22" y="0.02" dx="1.65" dy="0.6" layer="1"/>
+<smd name="FRONT4" x="1.22" y="-0.98" dx="1.65" dy="0.6" layer="1"/>
+<smd name="FRONT5" x="1.22" y="-1.98" dx="1.65" dy="0.6" layer="1"/>
+<smd name="BACK1" x="-2.44" y="2.02" dx="1.65" dy="0.6" layer="1"/>
+<smd name="BACK2" x="-2.44" y="1.02" dx="1.65" dy="0.6" layer="1"/>
+<smd name="BACK3" x="-2.44" y="0.02" dx="1.65" dy="0.6" layer="1"/>
+<smd name="BACK4" x="-2.44" y="-0.98" dx="1.65" dy="0.6" layer="1"/>
+<smd name="BACK5" x="-2.44" y="-1.98" dx="1.65" dy="0.6" layer="1"/>
+<wire x1="-2.52" y1="4.94" x2="-2.52" y2="-4.9" width="0.05" layer="1"/>
+<wire x1="1.3" y1="4.94" x2="1.3" y2="-4.9" width="0.05" layer="1"/>
+<wire x1="1.3" y1="4.94" x2="-2.51" y2="4.94" width="0.05" layer="1"/>
+<wire x1="1.3" y1="-4.9" x2="-2.52" y2="-4.9" width="0.05" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="5035663502" urn="urn:adsk.eagle:package:19735493/2" type="model">
+<packageinstances>
+<packageinstance name="5035663502"/>
+</packageinstances>
+</package3d>
+<package3d name="5035661302" urn="urn:adsk.eagle:package:20028177/2" type="model">
+<packageinstances>
+<packageinstance name="5035661302"/>
+</packageinstances>
+</package3d>
+<package3d name="FF12-32A-R11A" urn="urn:adsk.eagle:package:22499113/1" type="box">
+<packageinstances>
+<packageinstance name="FF12-32A-R11A"/>
+</packageinstances>
+</package3d>
+<package3d name="526100572" urn="urn:adsk.eagle:package:20112563/2" type="model">
+<packageinstances>
+<packageinstance name="526100572"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="5035663502">
+<pin name="BACK1/DISCONNECTED" x="-55.88" y="-2.54" length="middle"/>
+<pin name="BACK2/DATA_BUS_8" x="-55.88" y="-5.08" length="middle"/>
+<pin name="BACK3/DATA_BUS_9" x="-55.88" y="-7.62" length="middle"/>
+<pin name="BACK4/DATA_BUS_10" x="-55.88" y="-10.16" length="middle"/>
+<pin name="BACK5/DATA_BUS_11" x="-55.88" y="-12.7" length="middle"/>
+<pin name="BACK6/DATA_BUS_12" x="-55.88" y="-15.24" length="middle"/>
+<pin name="BACK7/DATA_BUS_11" x="-55.88" y="-17.78" length="middle"/>
+<pin name="BACK8/DATA_BUS_14" x="-55.88" y="-20.32" length="middle"/>
+<pin name="BACK9/DATA_BUS_15" x="-55.88" y="-22.86" length="middle"/>
+<pin name="BACK10/DMA_REQUEST" x="-55.88" y="-25.4" length="middle"/>
+<pin name="BACK11/WRITE_STROBE" x="-55.88" y="-27.94" length="middle"/>
+<pin name="BACK12/GND" x="-55.88" y="-30.48" length="middle"/>
+<pin name="BACK13/GND" x="-55.88" y="-33.02" length="middle"/>
+<pin name="BACK14/INTERRUPT_REQUEST" x="-55.88" y="-35.56" length="middle"/>
+<pin name="BACK15/ADDRESS_BUS_0" x="-55.88" y="-38.1" length="middle"/>
+<pin name="BACK16/PORT_SELECT_0" x="-55.88" y="-40.64" length="middle"/>
+<pin name="BACK17/+3V3" x="-55.88" y="-43.18" length="middle"/>
+<pin name="FRONT1/RESET" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="FRONT2/DATA_BUS_7" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="FRONT3/DATA_BUS_6" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="FRONT4/DATA_BUS_5" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="FRONT5/DATA_BUS_4" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="FRONT6/DATA_BUS_3" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="FRONT7/DATA_BUS_2" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="FRONT8/DATA_BUS_14" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="FRONT9/DATA_BUS_0" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="FRONT10/GND" x="30.48" y="-25.4" length="middle" rot="R180"/>
+<pin name="FRONT11/PORT_GND" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="FRONT12/READ_STROBE" x="30.48" y="-30.48" length="middle" rot="R180"/>
+<pin name="FRONT13/READY" x="30.48" y="-33.02" length="middle" rot="R180"/>
+<pin name="FRONT14/DMA_ACKNOWLEDGMENT" x="30.48" y="-35.56" length="middle" rot="R180"/>
+<pin name="FRONT15/ADDRESS_BUS_1" x="30.48" y="-38.1" length="middle" rot="R180"/>
+<pin name="FRONT16/ADDRESS_BUS_2" x="30.48" y="-40.64" length="middle" rot="R180"/>
+<pin name="FRONT17/PORT_SELECT_1" x="30.48" y="-43.18" length="middle" rot="R180"/>
+<pin name="FRONT18/+3V3" x="30.48" y="-45.72" length="middle" rot="R180"/>
+<wire x1="-50.8" y1="0" x2="-50.8" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="-50.8" y1="-48.26" x2="25.4" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-48.26" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="-50.8" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="5035661302">
+<pin name="FRONT1" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="FRONT2" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="FRONT3" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="FRONT4" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="FRONT5" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="FRONT6" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="FRONT7" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="BACK1" x="-22.86" y="7.62" length="middle"/>
+<pin name="BACK2" x="-22.86" y="5.08" length="middle"/>
+<pin name="BACK3" x="-22.86" y="2.54" length="middle"/>
+<pin name="BACK4" x="-22.86" y="0" length="middle"/>
+<pin name="BACK5" x="-22.86" y="-2.54" length="middle"/>
+<pin name="BACK6" x="-22.86" y="-5.08" length="middle"/>
+<wire x1="-17.78" y1="10.16" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-17.78" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="FF12-32A-R11A">
+<pin name="FRONT1" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="FRONT2" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="FRONT3" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="FRONT4" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="FRONT5" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="FRONT6" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="FRONT7" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="FRONT8" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="FRONT9" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="FRONT10" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="FRONT11" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="FRONT12" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="FRONT13" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="FRONT14" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="FRONT15" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="FRONT16" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="BACK1" x="-17.78" y="20.32" length="middle"/>
+<pin name="BACK2" x="-17.78" y="17.78" length="middle"/>
+<pin name="BACK3" x="-17.78" y="15.24" length="middle"/>
+<pin name="BACK4" x="-17.78" y="12.7" length="middle"/>
+<pin name="BACK5" x="-17.78" y="10.16" length="middle"/>
+<pin name="BACK6" x="-17.78" y="7.62" length="middle"/>
+<pin name="BACK7" x="-17.78" y="5.08" length="middle"/>
+<pin name="BACK8" x="-17.78" y="2.54" length="middle"/>
+<pin name="BACK9" x="-17.78" y="0" length="middle"/>
+<pin name="BACK10" x="-17.78" y="-2.54" length="middle"/>
+<pin name="BACK11" x="-17.78" y="-5.08" length="middle"/>
+<pin name="BACK12" x="-17.78" y="-7.62" length="middle"/>
+<pin name="BACK13" x="-17.78" y="-10.16" length="middle"/>
+<pin name="BACK14" x="-17.78" y="-12.7" length="middle"/>
+<pin name="BACK15" x="-17.78" y="-15.24" length="middle"/>
+<pin name="BACK16" x="-17.78" y="-17.78" length="middle"/>
+<wire x1="-12.7" y1="22.86" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
+</symbol>
+<symbol name="526100572">
+<pin name="FRONT1" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="FRONT2" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="FRONT3" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="FRONT4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="FRONT5" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="BACK1" x="-20.32" y="5.08" length="middle"/>
+<pin name="BACK2" x="-20.32" y="2.54" length="middle"/>
+<pin name="BACK3" x="-20.32" y="0" length="middle"/>
+<pin name="BACK4" x="-20.32" y="-2.54" length="middle"/>
+<pin name="BACK5" x="-20.32" y="-5.08" length="middle"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5035661302/HOLDJACK&amp;CLICKWHEEL">
+<gates>
+<gate name="G$1" symbol="5035661302" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="5035661302">
+<connects>
+<connect gate="G$1" pin="BACK1" pad="BACK1"/>
+<connect gate="G$1" pin="BACK2" pad="BACK2"/>
+<connect gate="G$1" pin="BACK3" pad="BACK3"/>
+<connect gate="G$1" pin="BACK4" pad="BACK4"/>
+<connect gate="G$1" pin="BACK5" pad="BACK5"/>
+<connect gate="G$1" pin="BACK6" pad="BACK6"/>
+<connect gate="G$1" pin="FRONT1" pad="FRONT1"/>
+<connect gate="G$1" pin="FRONT2" pad="FRONT2"/>
+<connect gate="G$1" pin="FRONT3" pad="FRONT3"/>
+<connect gate="G$1" pin="FRONT4" pad="FRONT4"/>
+<connect gate="G$1" pin="FRONT5" pad="FRONT5"/>
+<connect gate="G$1" pin="FRONT6" pad="FRONT6"/>
+<connect gate="G$1" pin="FRONT7" pad="FRONT7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20028177/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FF12-32A-R11A/SCREEN">
+<gates>
+<gate name="G$1" symbol="FF12-32A-R11A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FF12-32A-R11A">
+<connects>
+<connect gate="G$1" pin="BACK1" pad="BACK1"/>
+<connect gate="G$1" pin="BACK10" pad="BACK10"/>
+<connect gate="G$1" pin="BACK11" pad="BACK11"/>
+<connect gate="G$1" pin="BACK12" pad="BACK12"/>
+<connect gate="G$1" pin="BACK13" pad="BACK13"/>
+<connect gate="G$1" pin="BACK14" pad="BACK14"/>
+<connect gate="G$1" pin="BACK15" pad="BACK15"/>
+<connect gate="G$1" pin="BACK16" pad="BACK16"/>
+<connect gate="G$1" pin="BACK2" pad="BACK2"/>
+<connect gate="G$1" pin="BACK3" pad="BACK3"/>
+<connect gate="G$1" pin="BACK4" pad="BACK4"/>
+<connect gate="G$1" pin="BACK5" pad="BACK5"/>
+<connect gate="G$1" pin="BACK6" pad="BACK6"/>
+<connect gate="G$1" pin="BACK7" pad="BACK7"/>
+<connect gate="G$1" pin="BACK8" pad="BACK8"/>
+<connect gate="G$1" pin="BACK9" pad="BACK9"/>
+<connect gate="G$1" pin="FRONT1" pad="FRONT1"/>
+<connect gate="G$1" pin="FRONT10" pad="FRONT10"/>
+<connect gate="G$1" pin="FRONT11" pad="FRONT11"/>
+<connect gate="G$1" pin="FRONT12" pad="FRONT12"/>
+<connect gate="G$1" pin="FRONT13" pad="FRONT13"/>
+<connect gate="G$1" pin="FRONT14" pad="FRONT14"/>
+<connect gate="G$1" pin="FRONT15" pad="FRONT15"/>
+<connect gate="G$1" pin="FRONT16" pad="FRONT16"/>
+<connect gate="G$1" pin="FRONT2" pad="FRONT2"/>
+<connect gate="G$1" pin="FRONT3" pad="FRONT3"/>
+<connect gate="G$1" pin="FRONT4" pad="FRONT4"/>
+<connect gate="G$1" pin="FRONT5" pad="FRONT5"/>
+<connect gate="G$1" pin="FRONT6" pad="FRONT6"/>
+<connect gate="G$1" pin="FRONT7" pad="FRONT7"/>
+<connect gate="G$1" pin="FRONT8" pad="FRONT8"/>
+<connect gate="G$1" pin="FRONT9" pad="FRONT9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22499113/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5035663502/HDD">
+<gates>
+<gate name="G$1" symbol="5035663502" x="-12.7" y="20.32"/>
+</gates>
+<devices>
+<device name="" package="5035663502">
+<connects>
+<connect gate="G$1" pin="BACK1/DISCONNECTED" pad="BACK1"/>
+<connect gate="G$1" pin="BACK10/DMA_REQUEST" pad="BACK10"/>
+<connect gate="G$1" pin="BACK11/WRITE_STROBE" pad="BACK11"/>
+<connect gate="G$1" pin="BACK12/GND" pad="BACK12"/>
+<connect gate="G$1" pin="BACK13/GND" pad="BACK13"/>
+<connect gate="G$1" pin="BACK14/INTERRUPT_REQUEST" pad="BACK14"/>
+<connect gate="G$1" pin="BACK15/ADDRESS_BUS_0" pad="BACK15"/>
+<connect gate="G$1" pin="BACK16/PORT_SELECT_0" pad="BACK16"/>
+<connect gate="G$1" pin="BACK17/+3V3" pad="BACK17"/>
+<connect gate="G$1" pin="BACK2/DATA_BUS_8" pad="BACK2"/>
+<connect gate="G$1" pin="BACK3/DATA_BUS_9" pad="BACK3"/>
+<connect gate="G$1" pin="BACK4/DATA_BUS_10" pad="BACK4"/>
+<connect gate="G$1" pin="BACK5/DATA_BUS_11" pad="BACK5"/>
+<connect gate="G$1" pin="BACK6/DATA_BUS_12" pad="BACK6"/>
+<connect gate="G$1" pin="BACK7/DATA_BUS_11" pad="BACK7"/>
+<connect gate="G$1" pin="BACK8/DATA_BUS_14" pad="BACK8"/>
+<connect gate="G$1" pin="BACK9/DATA_BUS_15" pad="BACK9"/>
+<connect gate="G$1" pin="FRONT1/RESET" pad="FRONT1"/>
+<connect gate="G$1" pin="FRONT10/GND" pad="FRONT10"/>
+<connect gate="G$1" pin="FRONT11/PORT_GND" pad="FRONT11"/>
+<connect gate="G$1" pin="FRONT12/READ_STROBE" pad="FRONT12"/>
+<connect gate="G$1" pin="FRONT13/READY" pad="FRONT13"/>
+<connect gate="G$1" pin="FRONT14/DMA_ACKNOWLEDGMENT" pad="FRONT14"/>
+<connect gate="G$1" pin="FRONT15/ADDRESS_BUS_1" pad="FRONT15"/>
+<connect gate="G$1" pin="FRONT16/ADDRESS_BUS_2" pad="FRONT16"/>
+<connect gate="G$1" pin="FRONT17/PORT_SELECT_1" pad="FRONT17"/>
+<connect gate="G$1" pin="FRONT18/+3V3" pad="FRONT18"/>
+<connect gate="G$1" pin="FRONT2/DATA_BUS_7" pad="FRONT2"/>
+<connect gate="G$1" pin="FRONT3/DATA_BUS_6" pad="FRONT3"/>
+<connect gate="G$1" pin="FRONT4/DATA_BUS_5" pad="FRONT4"/>
+<connect gate="G$1" pin="FRONT5/DATA_BUS_4" pad="FRONT5"/>
+<connect gate="G$1" pin="FRONT6/DATA_BUS_3" pad="FRONT6"/>
+<connect gate="G$1" pin="FRONT7/DATA_BUS_2" pad="FRONT7"/>
+<connect gate="G$1" pin="FRONT8/DATA_BUS_14" pad="FRONT8"/>
+<connect gate="G$1" pin="FRONT9/DATA_BUS_0" pad="FRONT9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19735493/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="526100572/BATTERY">
+<gates>
+<gate name="G$1" symbol="526100572" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="526100572">
+<connects>
+<connect gate="G$1" pin="BACK1" pad="BACK1"/>
+<connect gate="G$1" pin="BACK2" pad="BACK2"/>
+<connect gate="G$1" pin="BACK3" pad="BACK3"/>
+<connect gate="G$1" pin="BACK4" pad="BACK4"/>
+<connect gate="G$1" pin="BACK5" pad="BACK5"/>
+<connect gate="G$1" pin="FRONT1" pad="FRONT1"/>
+<connect gate="G$1" pin="FRONT2" pad="FRONT2"/>
+<connect gate="G$1" pin="FRONT3" pad="FRONT3"/>
+<connect gate="G$1" pin="FRONT4" pad="FRONT4"/>
+<connect gate="G$1" pin="FRONT5" pad="FRONT5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20112563/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
